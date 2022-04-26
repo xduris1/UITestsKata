@@ -18,7 +18,7 @@ namespace SeleniumTests
         [Test]
         public void OrderProcessTest()
         {
-            driver.Url = "https://www.saucedemo.com/inventory.html";
+            driver.Url = "https://www.saucedemo.com";
 
             // TODO: Place your test code here
         }
