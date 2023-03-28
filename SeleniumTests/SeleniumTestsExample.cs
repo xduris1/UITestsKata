@@ -46,7 +46,7 @@ namespace SeleniumTests
 
             // Assert Checkout page
             Assert.AreEqual("SauceCard #31337", driver.FindElements(By.ClassName("summary_value_label")).ElementAt(0).Text);
-            Assert.AreEqual("FREE PONY EXPRESS DELIVERY!", driver.FindElements(By.ClassName("summary_value_label")).ElementAt(1).Text);
+            Assert.AreEqual("Free Pony Express Delivery!", driver.FindElements(By.ClassName("summary_value_label")).ElementAt(1).Text);
             Assert.AreEqual("Total: $43.18", driver.FindElement(By.ClassName("summary_total_label")).Text);
 
             // Finish Order
